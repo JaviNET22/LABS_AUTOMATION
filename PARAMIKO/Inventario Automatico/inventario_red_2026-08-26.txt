@@ -1,0 +1,22 @@
+========== INVENTARIO DE RED ==========
+
+Dispositivo: Desconocido
+IP de gestion: 10.1.1.30
+Sistema operativo: Cisco IOS
+Interfaces activas: 2
+
+-------------------------------------
+
+Dispositivo: Desconocido
+IP de gestion: 10.1.1.20
+Sistema operativo: Cisco IOS
+Interfaces activas: 3
+
+-------------------------------------
+
+Dispositivo: Desconocido
+IP de gestion: 10.1.1.10
+Sistema operativo: Cisco IOS
+Interfaces activas: 2
+
+-------------------------------------
