@@ -8,19 +8,6 @@ Esta práctica consiste en crear una topología en GNS3 con varios routers o swi
 
 ![Topología de la red](imagenes/topologia.png)
 
-## Objetivos del ejercicio
-
-- Crear una topología con varios dispositivos en GNS3.
-- Configurar conectividad IP y acceso SSH en todos los dispositivos.
-- Crear una lista o diccionario en Python con la información de conexión de cada dispositivo.
-- Conectarse automáticamente a todos los dispositivos utilizando Paramiko.
-- Obtener el hostname de cada dispositivo.
-- Obtener información sobre la versión del sistema operativo.
-- Obtener información sobre las interfaces y sus direcciones IP.
-- Comprobar el estado de las interfaces.
-- Guardar toda la información recopilada en un archivo.
-- Generar un inventario automático de la red.
-
 ## Script de Python
 
 El script utilizado está disponible en esta misma carpeta: [`inventario_red.py`](inventario_red.py).

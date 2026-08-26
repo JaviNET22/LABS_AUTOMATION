@@ -8,18 +8,6 @@ Este laboratorio practica la automatización de copias de seguridad de la config
 
 ![Topología de la red](imagenes/topologia.png)
 
-## Objetivos del ejercicio
-
-- Configurar varios routers en GNS3.
-- Configurar el acceso mediante SSH en cada router.
-- Crear conectividad entre el equipo donde se ejecuta Python y los routers.
-- Crear una lista con las direcciones IP de los dispositivos.
-- Utilizar Paramiko para conectarse automáticamente a cada router.
-- Ejecutar el comando `show running-config`.
-- Obtener la configuración de cada dispositivo.
-- Guardar cada configuración en un archivo de texto independiente.
-- Comprobar que los backups se han creado correctamente.
-
 ## Configuración de los routers
 
 Los tres routers utilizan una configuración equivalente: dirección IP en la interfaz `e0/0`, nombre de host, dominio, claves RSA para SSH, usuario administrativo y acceso por SSH en las líneas VTY.

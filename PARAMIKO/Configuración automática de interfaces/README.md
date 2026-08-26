@@ -8,19 +8,6 @@ Esta práctica consiste en crear una topología en GNS3 con varios routers y uti
 
 ![Topología de la red](imagenes/topologia.png)
 
-## Objetivos del ejercicio
-
-- Crear una topología con varios routers en GNS3.
-- Configurar SSH en todos los dispositivos.
-- Crear una lista con la información de cada router.
-- Conectarse automáticamente a cada router mediante Paramiko.
-- Configurar una interfaz Loopback en cada router.
-- Asignar una dirección IP diferente a cada Loopback.
-- Guardar la configuración utilizando `write memory`.
-- Ejecutar `show ip interface brief`.
-- Comprobar mediante Python que las interfaces están activas.
-- Mostrar un mensaje indicando si la configuración de cada router se ha realizado correctamente.
-
 ## Configuración de los routers
 
 Los tres routers utilizan una configuración equivalente: dirección IP en la interfaz `f0/0`, usuario administrativo, dominio, claves RSA para SSH y acceso por SSH en las líneas VTY.
