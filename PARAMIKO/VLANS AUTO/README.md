@@ -4,7 +4,7 @@ Este proyecto muestra cómo automatizar la creación y configuración de VLANs e
 
 ## Objetivo de la práctica
 
-El objetivo es construir una topología en GNS3 formada por varios switches y utilizar Python junto con Paramiko para automatizar la creación de VLANs. El script debe conectarse por SSH a cada switch, crear las VLANs necesarias asignándoles un nombre, configurar determinados puertos como puertos trunk y comprobar, mediante comandos de verificación, que la configuración se ha aplicado correctamente.
+El objetivo es construir una topología formada por varios switches y utilizar Python junto con Paramiko para automatizar la creación de VLANs. El script debe conectarse por SSH a cada switch, crear las VLANs necesarias asignándoles un nombre, configurar determinados puertos como puertos trunk y comprobar, mediante comandos de verificación, que la configuración se ha aplicado correctamente.
 
 ## Topología
 
