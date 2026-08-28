@@ -23,6 +23,6 @@ El script se encuentra en [consult_routers.py](consult_routers.py) y hace lo sig
 
 Netmiko está orientado principalmente a un uso síncrono. Probé la posibilidad de emplear multithreading para conectar con varios routers en paralelo, pero descarté esta opción: la salida de los distintos hilos se mezclaba entre sí, dificultando la lectura de la información. Por este motivo, opté por un enfoque síncrono, en el que el script se conecta a cada router uno por uno, garantizando una salida clara y ordenada.
 
-## Resultado (Output)
+## Captura en terminal
 
 ![Ejemplo de salida del script](images/output.png)
