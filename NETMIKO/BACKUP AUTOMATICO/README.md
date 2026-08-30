@@ -1,14 +1,14 @@
 # Backup Automático de Configuración con Netmiko
 
-## Descripción del ejercicio
+## Descripción
 
 Desarrolla un programa en Python utilizando **Netmiko** que se conecte a varios routers Cisco y realice automáticamente una copia de seguridad de su configuración. El programa deberá obtener la configuración actual de cada dispositivo, crear un archivo independiente para cada router y organizar los backups utilizando el hostname del dispositivo.
 
-## Topología utilizada
+## Topología
 
 ![Topología del laboratorio](imagenes/topologia.png)
 
-## Cómo he resuelto el ejercicio
+## Explicación
 
 He escrito un script en Python, [backup_routers.py](backup_routers.py), que se conecta por SSH a los tres routers al mismo tiempo, utilizando hilos (threads). De este modo, no necesito esperar a que termine la conexión con un router para empezar con el siguiente.
 
