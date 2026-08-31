@@ -6,7 +6,7 @@ Este laboratorio consiste en desarrollar un programa en Python, utilizando la li
 
 ## Topología
 
-![Topología del laboratorio](imagenes/topologia.png)
+![Topología del laboratorio](images/topologia.png)
 
 ## Planteamiento del laboratorio
 
@@ -75,12 +75,12 @@ El script se encuentra en [configurar_vtp_vlans_switches.py](configurar_vtp_vlan
 
 ## Resultados
 
-![Resultado de la ejecución del script](imagenes/resultados-script.png)
+![Resultado de la ejecución del script](images/resultados-script.png)
 
 ## Verificación en los switches
 
 Finalmente, compruebo directamente en los switches que las VLANs se han creado y propagado correctamente:
 
-![Verificación de VLANs en los switches, parte 1](imagenes/verificacion-switches-1.png)
+![Verificación de VLANs en los switches, parte 1](images/verificacion-switches-1.png)
 
-![Verificación de VLANs en los switches, parte 2](imagenes/verificacion-switches-2.png)
+![Verificación de VLANs en los switches, parte 2](images/verificacion-switches-2.png)
