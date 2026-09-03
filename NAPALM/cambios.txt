@@ -1,0 +1,8 @@
+! Archivo de ejemplo para load_merge_candidate()
+! Reemplaza estas lineas por los comandos que quieras aplicar
+! en los routers del laboratorio antes de correr el script.
+!
+! Ejemplo:
+! interface Loopback99
+!  description Interfaz de prueba - auditoria NAPALM
+!  ip address 99.99.99.99 255.255.255.255
