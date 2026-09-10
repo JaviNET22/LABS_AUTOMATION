@@ -1,0 +1,40 @@
+
+##################################################
+Auditando R1 (10.1.1.10)
+##################################################
+[OK] Hostname: Hostname configurado: R1
+[OK] Interfaces: FastEthernet0/0: up/up; Ethernet1/0: administratively down/down; Ethernet1/1: administratively down/down; Ethernet1/2: administratively down/down; Ethernet1/3: administratively down/down
+[WARNING] Ruta por defecto: No hay ruta por defecto configurada
+[OK] Version IOS: Version de IOS: 15.2(4)S6
+[OK] Telnet: Telnet habilitado en las lineas VTY
+
+##################################################
+Auditando R2 (10.1.1.20)
+##################################################
+[OK] Hostname: Hostname configurado: R2
+[OK] Interfaces: FastEthernet0/0: up/up; Ethernet1/0: administratively down/down; Ethernet1/1: administratively down/down; Ethernet1/2: administratively down/down; Ethernet1/3: administratively down/down
+[WARNING] Ruta por defecto: No hay ruta por defecto configurada
+[OK] Version IOS: Version de IOS: 15.2(4)S6
+[OK] Telnet: Telnet habilitado en las lineas VTY
+
+##################################################
+Auditando R3 (10.1.1.30)
+##################################################
+[OK] Hostname: Hostname configurado: R3
+[OK] Interfaces: FastEthernet0/0: up/up; Ethernet1/0: administratively down/down; Ethernet1/1: administratively down/down; Ethernet1/2: administratively down/down; Ethernet1/3: administratively down/down
+[WARNING] Ruta por defecto: No hay ruta por defecto configurada
+[OK] Version IOS: Version de IOS: 15.2(4)S6
+[OK] Telnet: Telnet habilitado en las lineas VTY
+
+========================================
+AUDIT SUMMARY
+========================================
+R1 - WARNING
+R2 - WARNING
+R3 - WARNING
+
+Total: 3
+OK: 0
+WARNING: 3
+ERROR: 0
+========================================
